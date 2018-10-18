@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2325052A2178EF3B00C2DFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232505292178EF3B00C2DFEB /* AppDelegate.swift */; };
+		2325052C2178EF3B00C2DFEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325052B2178EF3B00C2DFEB /* ViewController.swift */; };
+		2325052F2178EF3B00C2DFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2325052D2178EF3B00C2DFEB /* Main.storyboard */; };
+		232505312178EF3B00C2DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232505302178EF3B00C2DFEB /* Assets.xcassets */; };
+		232505342178EF3B00C2DFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232505322178EF3B00C2DFEB /* LaunchScreen.storyboard */; };
+		2325053F2178EF3B00C2DFEB /* BikeRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325053E2178EF3B00C2DFEB /* BikeRadarTests.swift */; };
+		2325054A2178EF3B00C2DFEB /* BikeRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232505492178EF3B00C2DFEB /* BikeRadarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2325053B2178EF3B00C2DFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2325051E2178EF3B00C2DFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232505252178EF3B00C2DFEB;
+			remoteInfo = BikeRadar;
+		};
+		232505462178EF3B00C2DFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2325051E2178EF3B00C2DFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232505252178EF3B00C2DFEB;
+			remoteInfo = BikeRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		232505262178EF3B00C2DFEB /* BikeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232505292178EF3B00C2DFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2325052B2178EF3B00C2DFEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2325052E2178EF3B00C2DFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		232505302178EF3B00C2DFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		232505332178EF3B00C2DFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		232505352178EF3B00C2DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2325053A2178EF3B00C2DFEB /* BikeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2325053E2178EF3B00C2DFEB /* BikeRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRadarTests.swift; sourceTree = "<group>"; };
+		232505402178EF3B00C2DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232505452178EF3B00C2DFEB /* BikeRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		232505492178EF3B00C2DFEB /* BikeRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRadarUITests.swift; sourceTree = "<group>"; };
+		2325054B2178EF3B00C2DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232505232178EF3B00C2DFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505372178EF3B00C2DFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505422178EF3B00C2DFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2325051D2178EF3B00C2DFEB = {
+			isa = PBXGroup;
+			children = (
+				232505282178EF3B00C2DFEB /* BikeRadar */,
+				2325053D2178EF3B00C2DFEB /* BikeRadarTests */,
+				232505482178EF3B00C2DFEB /* BikeRadarUITests */,
+				232505272178EF3B00C2DFEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232505272178EF3B00C2DFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232505262178EF3B00C2DFEB /* BikeRadar.app */,
+				2325053A2178EF3B00C2DFEB /* BikeRadarTests.xctest */,
+				232505452178EF3B00C2DFEB /* BikeRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232505282178EF3B00C2DFEB /* BikeRadar */ = {
+			isa = PBXGroup;
+			children = (
+				232505292178EF3B00C2DFEB /* AppDelegate.swift */,
+				2325052B2178EF3B00C2DFEB /* ViewController.swift */,
+				2325052D2178EF3B00C2DFEB /* Main.storyboard */,
+				232505302178EF3B00C2DFEB /* Assets.xcassets */,
+				232505322178EF3B00C2DFEB /* LaunchScreen.storyboard */,
+				232505352178EF3B00C2DFEB /* Info.plist */,
+			);
+			path = BikeRadar;
+			sourceTree = "<group>";
+		};
+		2325053D2178EF3B00C2DFEB /* BikeRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2325053E2178EF3B00C2DFEB /* BikeRadarTests.swift */,
+				232505402178EF3B00C2DFEB /* Info.plist */,
+			);
+			path = BikeRadarTests;
+			sourceTree = "<group>";
+		};
+		232505482178EF3B00C2DFEB /* BikeRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				232505492178EF3B00C2DFEB /* BikeRadarUITests.swift */,
+				2325054B2178EF3B00C2DFEB /* Info.plist */,
+			);
+			path = BikeRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232505252178EF3B00C2DFEB /* BikeRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2325054E2178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadar" */;
+			buildPhases = (
+				232505222178EF3B00C2DFEB /* Sources */,
+				232505232178EF3B00C2DFEB /* Frameworks */,
+				232505242178EF3B00C2DFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeRadar;
+			productName = BikeRadar;
+			productReference = 232505262178EF3B00C2DFEB /* BikeRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		232505392178EF3B00C2DFEB /* BikeRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232505512178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadarTests" */;
+			buildPhases = (
+				232505362178EF3B00C2DFEB /* Sources */,
+				232505372178EF3B00C2DFEB /* Frameworks */,
+				232505382178EF3B00C2DFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2325053C2178EF3B00C2DFEB /* PBXTargetDependency */,
+			);
+			name = BikeRadarTests;
+			productName = BikeRadarTests;
+			productReference = 2325053A2178EF3B00C2DFEB /* BikeRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		232505442178EF3B00C2DFEB /* BikeRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232505542178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadarUITests" */;
+			buildPhases = (
+				232505412178EF3B00C2DFEB /* Sources */,
+				232505422178EF3B00C2DFEB /* Frameworks */,
+				232505432178EF3B00C2DFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232505472178EF3B00C2DFEB /* PBXTargetDependency */,
+			);
+			name = BikeRadarUITests;
+			productName = BikeRadarUITests;
+			productReference = 232505452178EF3B00C2DFEB /* BikeRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2325051E2178EF3B00C2DFEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ravinder;
+				TargetAttributes = {
+					232505252178EF3B00C2DFEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					232505392178EF3B00C2DFEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 232505252178EF3B00C2DFEB;
+					};
+					232505442178EF3B00C2DFEB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 232505252178EF3B00C2DFEB;
+					};
+				};
+			};
+			buildConfigurationList = 232505212178EF3B00C2DFEB /* Build configuration list for PBXProject "BikeRadar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2325051D2178EF3B00C2DFEB;
+			productRefGroup = 232505272178EF3B00C2DFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232505252178EF3B00C2DFEB /* BikeRadar */,
+				232505392178EF3B00C2DFEB /* BikeRadarTests */,
+				232505442178EF3B00C2DFEB /* BikeRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232505242178EF3B00C2DFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232505342178EF3B00C2DFEB /* LaunchScreen.storyboard in Resources */,
+				232505312178EF3B00C2DFEB /* Assets.xcassets in Resources */,
+				2325052F2178EF3B00C2DFEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505382178EF3B00C2DFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505432178EF3B00C2DFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232505222178EF3B00C2DFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2325052C2178EF3B00C2DFEB /* ViewController.swift in Sources */,
+				2325052A2178EF3B00C2DFEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505362178EF3B00C2DFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2325053F2178EF3B00C2DFEB /* BikeRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232505412178EF3B00C2DFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2325054A2178EF3B00C2DFEB /* BikeRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2325053C2178EF3B00C2DFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232505252178EF3B00C2DFEB /* BikeRadar */;
+			targetProxy = 2325053B2178EF3B00C2DFEB /* PBXContainerItemProxy */;
+		};
+		232505472178EF3B00C2DFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232505252178EF3B00C2DFEB /* BikeRadar */;
+			targetProxy = 232505462178EF3B00C2DFEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2325052D2178EF3B00C2DFEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2325052E2178EF3B00C2DFEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		232505322178EF3B00C2DFEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232505332178EF3B00C2DFEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2325054C2178EF3B00C2DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2325054D2178EF3B00C2DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2325054F2178EF3B00C2DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		232505502178EF3B00C2DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		232505522178EF3B00C2DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeRadar.app/BikeRadar";
+			};
+			name = Debug;
+		};
+		232505532178EF3B00C2DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeRadar.app/BikeRadar";
+			};
+			name = Release;
+		};
+		232505552178EF3B00C2DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeRadar;
+			};
+			name = Debug;
+		};
+		232505562178EF3B00C2DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232505212178EF3B00C2DFEB /* Build configuration list for PBXProject "BikeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2325054C2178EF3B00C2DFEB /* Debug */,
+				2325054D2178EF3B00C2DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2325054E2178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2325054F2178EF3B00C2DFEB /* Debug */,
+				232505502178EF3B00C2DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232505512178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232505522178EF3B00C2DFEB /* Debug */,
+				232505532178EF3B00C2DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232505542178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232505552178EF3B00C2DFEB /* Debug */,
+				232505562178EF3B00C2DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2325051E2178EF3B00C2DFEB /* Project object */;
+}
