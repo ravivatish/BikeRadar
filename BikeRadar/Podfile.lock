@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.0.0.beta.1)
+  - StravaKit (0.9.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0.beta.1)
+  - StravaKit (~> 0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - StravaKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2ef6d6c984c5d21c366e9b41a9ae7dfee2b67a44
+  StravaKit: 78c6cecc3c98d3860be2367fec96846664b75621
+
+PODFILE CHECKSUM: 0852d8430a1c597f41ee3ea90260fa7b23fea349
+
+COCOAPODS: 1.5.3

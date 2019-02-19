@@ -14,6 +14,10 @@
 		232505342178EF3B00C2DFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232505322178EF3B00C2DFEB /* LaunchScreen.storyboard */; };
 		2325053F2178EF3B00C2DFEB /* BikeRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325053E2178EF3B00C2DFEB /* BikeRadarTests.swift */; };
 		2325054A2178EF3B00C2DFEB /* BikeRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232505492178EF3B00C2DFEB /* BikeRadarUITests.swift */; };
+		2354E0A022049AC100224DD7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354E09F22049AC100224DD7 /* NetworkManager.swift */; };
+		2354E0A22204B2D600224DD7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2354E0A12204B2D600224DD7 /* Alamofire.framework */; };
+		2354E0A42204B2DC00224DD7 /* StravaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2354E0A32204B2DC00224DD7 /* StravaKit.framework */; };
+		A8F0535F283ED2DC42058CFC /* Pods_BikeRadar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18044C07DA31090BCC24E83 /* Pods_BikeRadar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,12 @@
 		232505452178EF3B00C2DFEB /* BikeRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		232505492178EF3B00C2DFEB /* BikeRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRadarUITests.swift; sourceTree = "<group>"; };
 		2325054B2178EF3B00C2DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2354E09F22049AC100224DD7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2354E0A12204B2D600224DD7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2354E0A32204B2DC00224DD7 /* StravaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StravaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7199C031430A170B1C0DE34B /* Pods-BikeRadar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRadar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeRadar/Pods-BikeRadar.debug.xcconfig"; sourceTree = "<group>"; };
+		8AFB9EF51DF4E48E8DB5E238 /* Pods-BikeRadar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRadar.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeRadar/Pods-BikeRadar.release.xcconfig"; sourceTree = "<group>"; };
+		F18044C07DA31090BCC24E83 /* Pods_BikeRadar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRadar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354E0A42204B2DC00224DD7 /* StravaKit.framework in Frameworks */,
+				2354E0A22204B2D600224DD7 /* Alamofire.framework in Frameworks */,
+				A8F0535F283ED2DC42058CFC /* Pods_BikeRadar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216397C7F1A119F9F7DECCE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7199C031430A170B1C0DE34B /* Pods-BikeRadar.debug.xcconfig */,
+				8AFB9EF51DF4E48E8DB5E238 /* Pods-BikeRadar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2325051D2178EF3B00C2DFEB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				2325053D2178EF3B00C2DFEB /* BikeRadarTests */,
 				232505482178EF3B00C2DFEB /* BikeRadarUITests */,
 				232505272178EF3B00C2DFEB /* Products */,
+				216397C7F1A119F9F7DECCE2 /* Pods */,
+				F1BF761E4CBDEF613518EC80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,7 @@
 				232505302178EF3B00C2DFEB /* Assets.xcassets */,
 				232505322178EF3B00C2DFEB /* LaunchScreen.storyboard */,
 				232505352178EF3B00C2DFEB /* Info.plist */,
+				2354E09F22049AC100224DD7 /* NetworkManager.swift */,
 			);
 			path = BikeRadar;
 			sourceTree = "<group>";
@@ -125,6 +150,16 @@
 			path = BikeRadarUITests;
 			sourceTree = "<group>";
 		};
+		F1BF761E4CBDEF613518EC80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2354E0A32204B2DC00224DD7 /* StravaKit.framework */,
+				2354E0A12204B2D600224DD7 /* Alamofire.framework */,
+				F18044C07DA31090BCC24E83 /* Pods_BikeRadar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2325054E2178EF3B00C2DFEB /* Build configuration list for PBXNativeTarget "BikeRadar" */;
 			buildPhases = (
+				576AD16ED2F6AD0A9D6DB89A /* [CP] Check Pods Manifest.lock */,
 				232505222178EF3B00C2DFEB /* Sources */,
 				232505232178EF3B00C2DFEB /* Frameworks */,
 				232505242178EF3B00C2DFEB /* Resources */,
+				EC513A4A418025C177EFF685 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,11 +291,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		576AD16ED2F6AD0A9D6DB89A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeRadar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC513A4A418025C177EFF685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeRadar/Pods-BikeRadar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/StravaKit/StravaKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StravaKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeRadar/Pods-BikeRadar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		232505222178EF3B00C2DFEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354E0A022049AC100224DD7 /* NetworkManager.swift in Sources */,
 				2325052C2178EF3B00C2DFEB /* ViewController.swift in Sources */,
 				2325052A2178EF3B00C2DFEB /* AppDelegate.swift in Sources */,
 			);
@@ -363,12 +450,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -414,22 +502,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2325054F2178EF3B00C2DFEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7199C031430A170B1C0DE34B /* Pods-BikeRadar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPX5XBPW53;
 				INFOPLIST_FILE = BikeRadar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar;
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,12 +529,14 @@
 		};
 		232505502178EF3B00C2DFEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFB9EF51DF4E48E8DB5E238 /* Pods-BikeRadar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPX5XBPW53;
 				INFOPLIST_FILE = BikeRadar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar;
+				PRODUCT_BUNDLE_IDENTIFIER = Ravinder.BikeRadar12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

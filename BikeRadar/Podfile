@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12'
+use_frameworks!
+
+target 'BikeRadar' do
+pod 'Alamofire', '~> 5.0.0.beta.1'
+pod 'StravaKit', '~> 0.9'
+end

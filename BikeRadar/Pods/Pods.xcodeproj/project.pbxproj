@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B905AE57B4AC7DEF7A2E1FCEB90D11 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C75C8F01C9F69D11FE3CED469E78C2 /* Map.swift */; };
+		0C87D3240377C74F037736A15E6B4068 /* ResourceSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90139C86E8A53B9F035C0C0ACB582CF4 /* ResourceSummary.swift */; };
+		14766F748A65EEEA3BF766F10A2CCFB9 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB600F9E2E6B94C20B6349F7E0BB4EF6 /* Photo.swift */; };
+		15AD4ACB73C0014F0FBB128D908797CB /* StravaAthlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87EA4BEB685F3941D4C2CD423BCACA /* StravaAthlete.swift */; };
+		1F1E3999CD45E9BEF6B9DA7321CBE799 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F07C45D11C1D460F92F9067070A31E /* URLConvertible+URLRequestConvertible.swift */; };
+		204C53DD0A903E2EB87A06445C1A4F75 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86327EC7E9B02CC08FE1DC766C769702 /* Polyline.swift */; };
+		32CC0BF9B7A3DA8C223EDC2DFFAF1B38 /* DefaultRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EFA1A6F858C92312D33DD2485BFC0 /* DefaultRequestor.swift */; };
+		3316553EBA26D15DEB3881B08E103C1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BFCD1B7297C354AE343E977580C531 /* Security.framework */; };
+		387F7EC5F7372DF657A36C5C2D671007 /* JSONSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4842BFBF4AA48AE3B6E1D66B93D8 /* JSONSupport.swift */; };
+		3A5388949570BD5EEB8FA52013A6617D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD59ECB974861B5F22274F458A241 /* OperationQueue+Alamofire.swift */; };
+		3DF130885EBCEEA91CFC17472509AF8A /* StravaRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130944891B659D707C4C7F32B4BEF040 /* StravaRoute.swift */; };
+		41D4D0571AEA89EB9CC1FBD59266A016 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCDE596EF7BFA9F6D0402B164A43AC /* EventMonitor.swift */; };
+		42E7221EA85E3BEA11AC494BB7598E68 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96DC879479AA4DA2A256533EE3F963 /* ResponseSerialization.swift */; };
+		4693DD71CA0684C15C6EF0E3BFB30CD7 /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF190AD4AB7631DE027F1281FA49D8 /* Protector.swift */; };
+		49D4BB699FE1185CC6CFFD1AFF328758 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050256430FE34E2F43FC3A90E86897AF /* Request.swift */; };
+		544BFC14B9E99681EB4F28C7CACC0ED9 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A0895F63F515F8D523C392AC0AA39 /* Alamofire-dummy.m */; };
+		5856A64768480F16CAF9E4BBDC6A9B89 /* SegmentEffort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCE8A898B82B29FEA31936B7397232 /* SegmentEffort.swift */; };
+		591C99975B832EF4D4CFE6AE520DA139 /* Strava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A98305DDDD97A52C54C48091D48664 /* Strava.swift */; };
+		593C2658B1BBEE61CD0DC69AC78E7CCA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45727A3A936B12BFB30297592B96893 /* CoreLocation.framework */; };
+		59BC929F24869E12C65570C8AAD0897C /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B93B30803B86940A7DBFA0B796ED8 /* AFError.swift */; };
+		5F0FF9D8B02B54400C370ED8CBF59EED /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956584E67BAAB3FB6C652DA95726C45E /* Activity.swift */; };
+		64C0124C5B9FCAC2E5ABD349388E94E3 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FCFED0FEF6DF0DEE52D91A004C3EE /* DispatchQueue+Alamofire.swift */; };
+		6819CCA3E44F064787B902721ED93E39 /* StravaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF422ED2A31731974339DBA9243E2CE /* StravaSegment.swift */; };
+		6934CDFFE5C1636154BF0E6947774CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9017BA103B210E0E827C6F9462562E9C /* Foundation.framework */; };
+		6BBF253CFE3AE1B6CEFA08F5FE90237F /* StravaUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909563D72BC64880623F5F9AECECEFCA /* StravaUpload.swift */; };
+		6F6EDA2C4419F433B4FD524E918345E3 /* SessionStateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D8FD9769419D5F16468728984E66B /* SessionStateProvider.swift */; };
+		72B80AD426C4CBC8DF98FAED60B45552 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B34E3EDB5F49791B549C6035D1E089 /* Keychain.swift */; };
+		72CECD359CDF92DC22C76356E1796DA3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB40E3CE4334E0337CB0330BAE4A61A /* Alamofire.swift */; };
+		794BA17C5E58908520F4D58D7183A5DF /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0B8E545F1EEEB7E46C76BCDEDA547 /* Segment.swift */; };
+		7F3F6C84D2E27255EFA4A373DC71A2A2 /* LeaderboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25AAA05C8B14E799FC51AE29578E0C /* LeaderboardEntry.swift */; };
+		8083811B4BB3366CBAAC7EFE76F35DCA /* StravaOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93C6445B77B03F0ED877CBFA4FF8E4 /* StravaOAuth.swift */; };
+		81264930F8823CAC6CE2CDC286A5D9E2 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6E1F932CD580B5370C386A67AA1A5C /* Notifications.swift */; };
+		829EF70EAE74A804F155D68448C7E4A2 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0ACDD5ED6825A29362902256C7ADAF /* Club.swift */; };
+		864676B8B8241DDF11582613E82DFE2E /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D254F522971F0DB8F69A502417504AE /* ServerTrustEvaluation.swift */; };
+		8712B43E39BDABDBEB5F5A7FC086D070 /* Pods-BikeRadar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EE86C2E2BF612B15429437BD5753E /* Pods-BikeRadar-dummy.m */; };
+		8A1861B8FD417601F283D4951374B1A6 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD64F70E09E8AFDEEAAD44D89DE1CE8 /* NetworkReachabilityManager.swift */; };
+		977F611B308D748FE7B0088EBF35CEEB /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C5149BE23B70ED3A8F9F5159A4141 /* ParameterEncoder.swift */; };
+		9D0DD8CE5084C22BA4222405E8F6777A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E88400FC0894CAD8CEE8AB4DB48940 /* Session.swift */; };
+		A06B115D4C93CBA421BBC30BCEAD1149 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC9F8E9A3D0AC10EB06C10571F2B82 /* Result.swift */; };
+		A160B91B8BF10CFBEB48B322316E5E72 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE494CCF589641DA7BDCD5B35AC7552D /* Zones.swift */; };
+		A2C797BF6BB45D5A96F41011DD9EE558 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB46E67F727C04690239A0A8BA4D69C /* HTTPMethod.swift */; };
+		A4751E966EB737CFFECE380F55DC829D /* MapBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B2A16F6FD0D4F17B389FFE4C6035 /* MapBounds.swift */; };
+		A86D20361067BA93B6132C04F2EA60DC /* Pods-BikeRadar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4212D84E691CEE78695D28A306BCEEC8 /* Pods-BikeRadar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC90E6F0E92FC0735F8ED5DFC3396D3A /* StravaActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037AC1BDD7A6DE0E7572A6DB3B1EFE /* StravaActivity.swift */; };
+		BAD428CB0045331023089FE0FAFB23AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9017BA103B210E0E827C6F9462562E9C /* Foundation.framework */; };
+		BB466C8ECB7AEE1C06734411347BAC2D /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A349D3BDCEA7A2148AA17561D30CA0 /* RequestAdapter.swift */; };
+		C08E04549EA09537FBA59CBF58FC3958 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8737426782EC3A77A48A20AEB0BF69 /* URLSessionConfiguration+Alamofire.swift */; };
+		C1243DF1E2A0953DA2789FCDC3D0D69E /* SegmentStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABFED47BC2CEF512957DD747087C5BF /* SegmentStats.swift */; };
+		C6916320A7C7D2F35600CBA483814A9D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5C0FD840018C49C3982C987070A49 /* RequestTaskMap.swift */; };
+		C82CECD0198622680F5F661DA79F86D3 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915CA6E231E7BCD4E99BBAD0D0EBF64 /* MultipartUpload.swift */; };
+		CE7E590A8787BB68716EDF9C554C8390 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76CE482E8F421C73708791A4C94395 /* MultipartFormData.swift */; };
+		D7A59B40FE8811497F2085BC756682DD /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FBF5AE72E03A69C81D0F9CC00A3D5 /* Page.swift */; };
+		D809ACACC3BE69CEB6C361A48F03FB7F /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD84095CD68E3FCBA7DAA26F7A1AD6 /* ParameterEncoding.swift */; };
+		D89D42D372F47E00A41E8FED1A269C8E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067696520AA8CCF82AFD62B1F49811D3 /* Response.swift */; };
+		DE81AD208062777E01F968569D1BB299 /* StravaClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A601EEBA68C2E5303E70FF7EC8E4434 /* StravaClub.swift */; };
+		DF4A675BDE26413D11F86D23D237E73F /* RequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCC3855990F47778DBEB3EDFD6CD4D /* RequestRetrier.swift */; };
+		DFD4519939C31B8347F36B330131DA2C /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8DADC07B9A4DA540578A617FDF124 /* HTTPHeaders.swift */; };
+		E0E0D294F8B23B6367D45181987C08CE /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8E01A4C615DB8C13D8739FE159292 /* Route.swift */; };
+		E3CFEA8F7A1E8E782CB872728735AC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9017BA103B210E0E827C6F9462562E9C /* Foundation.framework */; };
+		EB0EB444660CCAA8CFF31AE1F5320582 /* Requestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3291D22D887C8049D646C4CA88A639 /* Requestor.swift */; };
+		ED38DD696CEB6660057F187FCE06E368 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4080478AFEB1FF83A248D279578C9 /* Leaderboard.swift */; };
+		EFCBD20F82ABA01EBA711F31605DF031 /* StravaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197955EE5E8C79AD551FC05B80654ED /* StravaKit-dummy.m */; };
+		F230E06DDA79A3175E18285149EF4494 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F47C49C3EE5239FF106D94D11BFCDC /* CFNetwork.framework */; };
+		F33C80654438067DACBC453D6BC81097 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC2186D89D88789E44E14C02EBAD99 /* Stats.swift */; };
+		F6F03BBB6E1AE802AEB29D6EC8702C8A /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E60CFE3006CA6697CE9E6B3740B2C /* Athlete.swift */; };
+		F7191E82FAE9EA5C4AAD4AF211846D84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B786E6E2E90999B8A9FFDE771E1509D7 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC877FB9438CC6160626D34C1D32CDB /* StatsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E0575F832F4F1106737F43DE96E81 /* StatsDetail.swift */; };
+		FCA55A112C125851BC7E5D0CCE9DE476 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9BB338AEA720A5C37BB75834CF85B /* Validation.swift */; };
+		FF3691E4327BA696700BE3BF284120EA /* StravaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D476189CD8D616BC23A1FB3FED6394B /* StravaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518BEBF484813F56D8EC9D149E28DD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8E5145B0E532727BC33BDE1D63DE9B;
+			remoteInfo = StravaKit;
+		};
+		EBFE14993BE0D74CFE7FF162A48FB9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE987AC5AE644CD8D3C1D30BB25DC87;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050256430FE34E2F43FC3A90E86897AF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		067696520AA8CCF82AFD62B1F49811D3 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0B6CCAFB3073D6A6EF31E2606C467DAB /* StravaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StravaKit.xcconfig; sourceTree = "<group>"; };
+		0D254F522971F0DB8F69A502417504AE /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		0F2C5149BE23B70ED3A8F9F5159A4141 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		116C806E4ADA202543A02E3061278A31 /* Pods-BikeRadar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeRadar.debug.xcconfig"; sourceTree = "<group>"; };
+		130944891B659D707C4C7F32B4BEF040 /* StravaRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaRoute.swift; path = Sources/StravaRoute.swift; sourceTree = "<group>"; };
+		1A601EEBA68C2E5303E70FF7EC8E4434 /* StravaClub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaClub.swift; path = Sources/StravaClub.swift; sourceTree = "<group>"; };
+		1AB40E3CE4334E0337CB0330BAE4A61A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1D8737426782EC3A77A48A20AEB0BF69 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		22B8E01A4C615DB8C13D8739FE159292 /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Sources/Route.swift; sourceTree = "<group>"; };
+		28A349D3BDCEA7A2148AA17561D30CA0 /* RequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestAdapter.swift; path = Source/RequestAdapter.swift; sourceTree = "<group>"; };
+		28F07C45D11C1D460F92F9067070A31E /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		2CAD84095CD68E3FCBA7DAA26F7A1AD6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2E464909B7B4BE34809FC26A2CB634E7 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		334DB8E97F7A8529D46B215FE39CC527 /* Pods-BikeRadar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeRadar-resources.sh"; sourceTree = "<group>"; };
+		34B5C0FD840018C49C3982C987070A49 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		34F47C49C3EE5239FF106D94D11BFCDC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		36037AC1BDD7A6DE0E7572A6DB3B1EFE /* StravaActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaActivity.swift; path = Sources/StravaActivity.swift; sourceTree = "<group>"; };
+		3D476189CD8D616BC23A1FB3FED6394B /* StravaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StravaKit-umbrella.h"; sourceTree = "<group>"; };
+		3DD64F70E09E8AFDEEAAD44D89DE1CE8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4212D84E691CEE78695D28A306BCEEC8 /* Pods-BikeRadar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BikeRadar-umbrella.h"; sourceTree = "<group>"; };
+		422E0575F832F4F1106737F43DE96E81 /* StatsDetail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatsDetail.swift; path = Sources/StatsDetail.swift; sourceTree = "<group>"; };
+		442A0895F63F515F8D523C392AC0AA39 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		4D4FCFED0FEF6DF0DEE52D91A004C3EE /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		549A293B9C0E115327ED53CD09F87E76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADB1A734B78DA4F9183F3A25B5066D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F0B8E545F1EEEB7E46C76BCDEDA547 /* Segment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segment.swift; path = Sources/Segment.swift; sourceTree = "<group>"; };
+		65A98305DDDD97A52C54C48091D48664 /* Strava.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strava.swift; path = Sources/Strava.swift; sourceTree = "<group>"; };
+		6821E1B2B784DBB9075460F15C096A7E /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		68245D76942F825F43AB149F5B30240A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A67B2A16F6FD0D4F17B389FFE4C6035 /* MapBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapBounds.swift; path = Sources/MapBounds.swift; sourceTree = "<group>"; };
+		6A6EE86C2E2BF612B15429437BD5753E /* Pods-BikeRadar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BikeRadar-dummy.m"; sourceTree = "<group>"; };
+		6B3BAED37EA1476122923D04A5615647 /* StravaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StravaKit.framework; path = StravaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D93C6445B77B03F0ED877CBFA4FF8E4 /* StravaOAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaOAuth.swift; path = Sources/StravaOAuth.swift; sourceTree = "<group>"; };
+		6FF422ED2A31731974339DBA9243E2CE /* StravaSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaSegment.swift; path = Sources/StravaSegment.swift; sourceTree = "<group>"; };
+		759B93B30803B86940A7DBFA0B796ED8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		77408AC24D21DD03BEDF8B07AC51B842 /* Pods-BikeRadar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BikeRadar.modulemap"; sourceTree = "<group>"; };
+		81085D629EBD3E76D09257955B1C495A /* Pods_BikeRadar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BikeRadar.framework; path = "Pods-BikeRadar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197955EE5E8C79AD551FC05B80654ED /* StravaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StravaKit-dummy.m"; sourceTree = "<group>"; };
+		84D4080478AFEB1FF83A248D279578C9 /* Leaderboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Leaderboard.swift; path = Sources/Leaderboard.swift; sourceTree = "<group>"; };
+		86327EC7E9B02CC08FE1DC766C769702 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Sources/Polyline.swift; sourceTree = "<group>"; };
+		86BFCD1B7297C354AE343E977580C531 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8BC5884EBABA321B95686001E1757480 /* Pods-BikeRadar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BikeRadar-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F6E1F932CD580B5370C386A67AA1A5C /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		90139C86E8A53B9F035C0C0ACB582CF4 /* ResourceSummary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceSummary.swift; path = Sources/ResourceSummary.swift; sourceTree = "<group>"; };
+		9017BA103B210E0E827C6F9462562E9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		909563D72BC64880623F5F9AECECEFCA /* StravaUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaUpload.swift; path = Sources/StravaUpload.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948EFA1A6F858C92312D33DD2485BFC0 /* DefaultRequestor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultRequestor.swift; path = Sources/DefaultRequestor.swift; sourceTree = "<group>"; };
+		94CF6A4993DE749F92CDEEA8FB4471C7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956584E67BAAB3FB6C652DA95726C45E /* Activity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = Sources/Activity.swift; sourceTree = "<group>"; };
+		9ACCE8A898B82B29FEA31936B7397232 /* SegmentEffort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentEffort.swift; path = Sources/SegmentEffort.swift; sourceTree = "<group>"; };
+		9D0ACDD5ED6825A29362902256C7ADAF /* Club.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Club.swift; path = Sources/Club.swift; sourceTree = "<group>"; };
+		A45727A3A936B12BFB30297592B96893 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		A5E9BB338AEA720A5C37BB75834CF85B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AAB46E67F727C04690239A0A8BA4D69C /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		AD76CE482E8F421C73708791A4C94395 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		AE0E4842BFBF4AA48AE3B6E1D66B93D8 /* JSONSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSupport.swift; path = Sources/JSONSupport.swift; sourceTree = "<group>"; };
+		B3D8DADC07B9A4DA540578A617FDF124 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		B786E6E2E90999B8A9FFDE771E1509D7 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B8B34E3EDB5F49791B549C6035D1E089 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
+		B8DC9F8E9A3D0AC10EB06C10571F2B82 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		BA3291D22D887C8049D646C4CA88A639 /* Requestor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestor.swift; path = Sources/Requestor.swift; sourceTree = "<group>"; };
+		BD7A56E71F2CCF2BF3C9C5EA00A4B657 /* Pods-BikeRadar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BikeRadar.release.xcconfig"; sourceTree = "<group>"; };
+		BE3FBF5AE72E03A69C81D0F9CC00A3D5 /* Page.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Page.swift; path = Sources/Page.swift; sourceTree = "<group>"; };
+		C5C75C8F01C9F69D11FE3CED469E78C2 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
+		C8E88400FC0894CAD8CEE8AB4DB48940 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		CE8BD59ECB974861B5F22274F458A241 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		CF5E60CFE3006CA6697CE9E6B3740B2C /* Athlete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Athlete.swift; path = Sources/Athlete.swift; sourceTree = "<group>"; };
+		CF87EA4BEB685F3941D4C2CD423BCACA /* StravaAthlete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StravaAthlete.swift; path = Sources/StravaAthlete.swift; sourceTree = "<group>"; };
+		D0BCC3855990F47778DBEB3EDFD6CD4D /* RequestRetrier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestRetrier.swift; path = Source/RequestRetrier.swift; sourceTree = "<group>"; };
+		D41D8FD9769419D5F16468728984E66B /* SessionStateProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionStateProvider.swift; path = Source/SessionStateProvider.swift; sourceTree = "<group>"; };
+		D755578A5F59153EB72E7367A1F94E9B /* StravaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StravaKit-prefix.pch"; sourceTree = "<group>"; };
+		DE494CCF589641DA7BDCD5B35AC7552D /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/Zones.swift; sourceTree = "<group>"; };
+		E42406158EE11FE5B3305E373B56DED7 /* Pods-BikeRadar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BikeRadar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7B95D916C60A301F97B2F3639BAB6E0 /* StravaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StravaKit.modulemap; sourceTree = "<group>"; };
+		E915CA6E231E7BCD4E99BBAD0D0EBF64 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		EABFED47BC2CEF512957DD747087C5BF /* SegmentStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentStats.swift; path = Sources/SegmentStats.swift; sourceTree = "<group>"; };
+		ECCC2186D89D88789E44E14C02EBAD99 /* Stats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stats.swift; path = Sources/Stats.swift; sourceTree = "<group>"; };
+		EDDF190AD4AB7631DE027F1281FA49D8 /* Protector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protector.swift; path = Source/Protector.swift; sourceTree = "<group>"; };
+		EF06EFDB014E3E0EFEBC12A5512E0293 /* Pods-BikeRadar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BikeRadar-frameworks.sh"; sourceTree = "<group>"; };
+		F2CCDE596EF7BFA9F6D0402B164A43AC /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		FB600F9E2E6B94C20B6349F7E0BB4EF6 /* Photo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = Sources/Photo.swift; sourceTree = "<group>"; };
+		FC96DC879479AA4DA2A256533EE3F963 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		FCE875CAF9D66C07F02BC7A87DAE5ACB /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		FD25AAA05C8B14E799FC51AE29578E0C /* LeaderboardEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeaderboardEntry.swift; path = Sources/LeaderboardEntry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97FB6A8C67A221651F848177CC152708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230E06DDA79A3175E18285149EF4494 /* CFNetwork.framework in Frameworks */,
+				6934CDFFE5C1636154BF0E6947774CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4615BA7DD8546B7957684CF77BD8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C2658B1BBEE61CD0DC69AC78E7CCA /* CoreLocation.framework in Frameworks */,
+				BAD428CB0045331023089FE0FAFB23AB /* Foundation.framework in Frameworks */,
+				3316553EBA26D15DEB3881B08E103C1F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA4DD0A0497BAD805C1CE69455A22EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CFEA8F7A1E8E782CB872728735AC86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095A1AA834E81F1A576D131E165DC086 /* StravaKit */ = {
+			isa = PBXGroup;
+			children = (
+				956584E67BAAB3FB6C652DA95726C45E /* Activity.swift */,
+				CF5E60CFE3006CA6697CE9E6B3740B2C /* Athlete.swift */,
+				9D0ACDD5ED6825A29362902256C7ADAF /* Club.swift */,
+				948EFA1A6F858C92312D33DD2485BFC0 /* DefaultRequestor.swift */,
+				AE0E4842BFBF4AA48AE3B6E1D66B93D8 /* JSONSupport.swift */,
+				B8B34E3EDB5F49791B549C6035D1E089 /* Keychain.swift */,
+				84D4080478AFEB1FF83A248D279578C9 /* Leaderboard.swift */,
+				FD25AAA05C8B14E799FC51AE29578E0C /* LeaderboardEntry.swift */,
+				C5C75C8F01C9F69D11FE3CED469E78C2 /* Map.swift */,
+				6A67B2A16F6FD0D4F17B389FFE4C6035 /* MapBounds.swift */,
+				BE3FBF5AE72E03A69C81D0F9CC00A3D5 /* Page.swift */,
+				FB600F9E2E6B94C20B6349F7E0BB4EF6 /* Photo.swift */,
+				86327EC7E9B02CC08FE1DC766C769702 /* Polyline.swift */,
+				BA3291D22D887C8049D646C4CA88A639 /* Requestor.swift */,
+				90139C86E8A53B9F035C0C0ACB582CF4 /* ResourceSummary.swift */,
+				22B8E01A4C615DB8C13D8739FE159292 /* Route.swift */,
+				63F0B8E545F1EEEB7E46C76BCDEDA547 /* Segment.swift */,
+				9ACCE8A898B82B29FEA31936B7397232 /* SegmentEffort.swift */,
+				EABFED47BC2CEF512957DD747087C5BF /* SegmentStats.swift */,
+				ECCC2186D89D88789E44E14C02EBAD99 /* Stats.swift */,
+				422E0575F832F4F1106737F43DE96E81 /* StatsDetail.swift */,
+				65A98305DDDD97A52C54C48091D48664 /* Strava.swift */,
+				36037AC1BDD7A6DE0E7572A6DB3B1EFE /* StravaActivity.swift */,
+				CF87EA4BEB685F3941D4C2CD423BCACA /* StravaAthlete.swift */,
+				1A601EEBA68C2E5303E70FF7EC8E4434 /* StravaClub.swift */,
+				6D93C6445B77B03F0ED877CBFA4FF8E4 /* StravaOAuth.swift */,
+				130944891B659D707C4C7F32B4BEF040 /* StravaRoute.swift */,
+				6FF422ED2A31731974339DBA9243E2CE /* StravaSegment.swift */,
+				909563D72BC64880623F5F9AECECEFCA /* StravaUpload.swift */,
+				DE494CCF589641DA7BDCD5B35AC7552D /* Zones.swift */,
+				6CEC41D74B350EE0257403A236828B05 /* Support Files */,
+			);
+			name = StravaKit;
+			path = StravaKit;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A9E7C9376BA7D5D02148C7FCA6B22B9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CCE7D1B6BCF6862F57DF2B359E6FD49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84FAB9CAA370BB8A47263601DDED00E /* Pods-BikeRadar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A9E7C9376BA7D5D02148C7FCA6B22B9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				34F47C49C3EE5239FF106D94D11BFCDC /* CFNetwork.framework */,
+				A45727A3A936B12BFB30297592B96893 /* CoreLocation.framework */,
+				9017BA103B210E0E827C6F9462562E9C /* Foundation.framework */,
+				86BFCD1B7297C354AE343E977580C531 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CEC41D74B350EE0257403A236828B05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ADB1A734B78DA4F9183F3A25B5066D4 /* Info.plist */,
+				E7B95D916C60A301F97B2F3639BAB6E0 /* StravaKit.modulemap */,
+				0B6CCAFB3073D6A6EF31E2606C467DAB /* StravaKit.xcconfig */,
+				8197955EE5E8C79AD551FC05B80654ED /* StravaKit-dummy.m */,
+				D755578A5F59153EB72E7367A1F94E9B /* StravaKit-prefix.pch */,
+				3D476189CD8D616BC23A1FB3FED6394B /* StravaKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StravaKit";
+			sourceTree = "<group>";
+		};
+		70194372D8920B51FD2E572CE8EDE0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B2B770C2497E7736551A9D617664CE /* Alamofire */,
+				095A1AA834E81F1A576D131E165DC086 /* StravaKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71B2B770C2497E7736551A9D617664CE /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				759B93B30803B86940A7DBFA0B796ED8 /* AFError.swift */,
+				1AB40E3CE4334E0337CB0330BAE4A61A /* Alamofire.swift */,
+				4D4FCFED0FEF6DF0DEE52D91A004C3EE /* DispatchQueue+Alamofire.swift */,
+				F2CCDE596EF7BFA9F6D0402B164A43AC /* EventMonitor.swift */,
+				B3D8DADC07B9A4DA540578A617FDF124 /* HTTPHeaders.swift */,
+				AAB46E67F727C04690239A0A8BA4D69C /* HTTPMethod.swift */,
+				AD76CE482E8F421C73708791A4C94395 /* MultipartFormData.swift */,
+				E915CA6E231E7BCD4E99BBAD0D0EBF64 /* MultipartUpload.swift */,
+				3DD64F70E09E8AFDEEAAD44D89DE1CE8 /* NetworkReachabilityManager.swift */,
+				8F6E1F932CD580B5370C386A67AA1A5C /* Notifications.swift */,
+				CE8BD59ECB974861B5F22274F458A241 /* OperationQueue+Alamofire.swift */,
+				0F2C5149BE23B70ED3A8F9F5159A4141 /* ParameterEncoder.swift */,
+				2CAD84095CD68E3FCBA7DAA26F7A1AD6 /* ParameterEncoding.swift */,
+				EDDF190AD4AB7631DE027F1281FA49D8 /* Protector.swift */,
+				050256430FE34E2F43FC3A90E86897AF /* Request.swift */,
+				28A349D3BDCEA7A2148AA17561D30CA0 /* RequestAdapter.swift */,
+				D0BCC3855990F47778DBEB3EDFD6CD4D /* RequestRetrier.swift */,
+				34B5C0FD840018C49C3982C987070A49 /* RequestTaskMap.swift */,
+				067696520AA8CCF82AFD62B1F49811D3 /* Response.swift */,
+				FC96DC879479AA4DA2A256533EE3F963 /* ResponseSerialization.swift */,
+				B8DC9F8E9A3D0AC10EB06C10571F2B82 /* Result.swift */,
+				0D254F522971F0DB8F69A502417504AE /* ServerTrustEvaluation.swift */,
+				C8E88400FC0894CAD8CEE8AB4DB48940 /* Session.swift */,
+				D41D8FD9769419D5F16468728984E66B /* SessionStateProvider.swift */,
+				28F07C45D11C1D460F92F9067070A31E /* URLConvertible+URLRequestConvertible.swift */,
+				1D8737426782EC3A77A48A20AEB0BF69 /* URLSessionConfiguration+Alamofire.swift */,
+				A5E9BB338AEA720A5C37BB75834CF85B /* Validation.swift */,
+				BD86E9CC130337CB40F0160196FC6870 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				70194372D8920B51FD2E572CE8EDE0B5 /* Pods */,
+				F17F4E9004149D60D66CD0B4129995E5 /* Products */,
+				5CCE7D1B6BCF6862F57DF2B359E6FD49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BD86E9CC130337CB40F0160196FC6870 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6821E1B2B784DBB9075460F15C096A7E /* Alamofire.modulemap */,
+				2E464909B7B4BE34809FC26A2CB634E7 /* Alamofire.xcconfig */,
+				442A0895F63F515F8D523C392AC0AA39 /* Alamofire-dummy.m */,
+				FCE875CAF9D66C07F02BC7A87DAE5ACB /* Alamofire-prefix.pch */,
+				B786E6E2E90999B8A9FFDE771E1509D7 /* Alamofire-umbrella.h */,
+				68245D76942F825F43AB149F5B30240A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		F17F4E9004149D60D66CD0B4129995E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CF6A4993DE749F92CDEEA8FB4471C7 /* Alamofire.framework */,
+				81085D629EBD3E76D09257955B1C495A /* Pods_BikeRadar.framework */,
+				6B3BAED37EA1476122923D04A5615647 /* StravaKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84FAB9CAA370BB8A47263601DDED00E /* Pods-BikeRadar */ = {
+			isa = PBXGroup;
+			children = (
+				549A293B9C0E115327ED53CD09F87E76 /* Info.plist */,
+				77408AC24D21DD03BEDF8B07AC51B842 /* Pods-BikeRadar.modulemap */,
+				E42406158EE11FE5B3305E373B56DED7 /* Pods-BikeRadar-acknowledgements.markdown */,
+				8BC5884EBABA321B95686001E1757480 /* Pods-BikeRadar-acknowledgements.plist */,
+				6A6EE86C2E2BF612B15429437BD5753E /* Pods-BikeRadar-dummy.m */,
+				EF06EFDB014E3E0EFEBC12A5512E0293 /* Pods-BikeRadar-frameworks.sh */,
+				334DB8E97F7A8529D46B215FE39CC527 /* Pods-BikeRadar-resources.sh */,
+				4212D84E691CEE78695D28A306BCEEC8 /* Pods-BikeRadar-umbrella.h */,
+				116C806E4ADA202543A02E3061278A31 /* Pods-BikeRadar.debug.xcconfig */,
+				BD7A56E71F2CCF2BF3C9C5EA00A4B657 /* Pods-BikeRadar.release.xcconfig */,
+			);
+			name = "Pods-BikeRadar";
+			path = "Target Support Files/Pods-BikeRadar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1460CE2C8FF1A3638310E7382C1F7644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7191E82FAE9EA5C4AAD4AF211846D84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D085AA93D0DCDC3444964ADB736C6C1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3691E4327BA696700BE3BF284120EA /* StravaKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA20DD20424EEDF1E4236662F7A4BA36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D20361067BA93B6132C04F2EA60DC /* Pods-BikeRadar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A62DE9706F0C2FCCE585AF4F9C51B41 /* Pods-BikeRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA7773607CBA7F8B0611D879C6682AA /* Build configuration list for PBXNativeTarget "Pods-BikeRadar" */;
+			buildPhases = (
+				FA20DD20424EEDF1E4236662F7A4BA36 /* Headers */,
+				F96BCD064F417C6E2590D400E340B7EE /* Sources */,
+				FFA4DD0A0497BAD805C1CE69455A22EF /* Frameworks */,
+				68050BE84BB0855DEE99BF291EB114AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97A61D9D4B18232A928007F14FFFF79 /* PBXTargetDependency */,
+				AEDD846C46ED53D0C69F282BA4C01AE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BikeRadar";
+			productName = "Pods-BikeRadar";
+			productReference = 81085D629EBD3E76D09257955B1C495A /* Pods_BikeRadar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0C8E5145B0E532727BC33BDE1D63DE9B /* StravaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6143ACEA3D8007C4555E9934DFA2D2A /* Build configuration list for PBXNativeTarget "StravaKit" */;
+			buildPhases = (
+				D085AA93D0DCDC3444964ADB736C6C1F /* Headers */,
+				C8B086EE54551CBE08568A4FD32DE652 /* Sources */,
+				BF4615BA7DD8546B7957684CF77BD8B7 /* Frameworks */,
+				382901B0DF45098BFF601A71C14B3FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StravaKit;
+			productName = StravaKit;
+			productReference = 6B3BAED37EA1476122923D04A5615647 /* StravaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0EE987AC5AE644CD8D3C1D30BB25DC87 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C7227FB60F61B85DE2D870E0675D19 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				1460CE2C8FF1A3638310E7382C1F7644 /* Headers */,
+				E159992C6721C38BF560457CC31F9B5B /* Sources */,
+				97FB6A8C67A221651F848177CC152708 /* Frameworks */,
+				F023AE3677902061AFB5E3B3B211DF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 94CF6A4993DE749F92CDEEA8FB4471C7 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F17F4E9004149D60D66CD0B4129995E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE987AC5AE644CD8D3C1D30BB25DC87 /* Alamofire */,
+				0A62DE9706F0C2FCCE585AF4F9C51B41 /* Pods-BikeRadar */,
+				0C8E5145B0E532727BC33BDE1D63DE9B /* StravaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382901B0DF45098BFF601A71C14B3FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68050BE84BB0855DEE99BF291EB114AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F023AE3677902061AFB5E3B3B211DF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B086EE54551CBE08568A4FD32DE652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0FF9D8B02B54400C370ED8CBF59EED /* Activity.swift in Sources */,
+				F6F03BBB6E1AE802AEB29D6EC8702C8A /* Athlete.swift in Sources */,
+				829EF70EAE74A804F155D68448C7E4A2 /* Club.swift in Sources */,
+				32CC0BF9B7A3DA8C223EDC2DFFAF1B38 /* DefaultRequestor.swift in Sources */,
+				387F7EC5F7372DF657A36C5C2D671007 /* JSONSupport.swift in Sources */,
+				72B80AD426C4CBC8DF98FAED60B45552 /* Keychain.swift in Sources */,
+				ED38DD696CEB6660057F187FCE06E368 /* Leaderboard.swift in Sources */,
+				7F3F6C84D2E27255EFA4A373DC71A2A2 /* LeaderboardEntry.swift in Sources */,
+				04B905AE57B4AC7DEF7A2E1FCEB90D11 /* Map.swift in Sources */,
+				A4751E966EB737CFFECE380F55DC829D /* MapBounds.swift in Sources */,
+				D7A59B40FE8811497F2085BC756682DD /* Page.swift in Sources */,
+				14766F748A65EEEA3BF766F10A2CCFB9 /* Photo.swift in Sources */,
+				204C53DD0A903E2EB87A06445C1A4F75 /* Polyline.swift in Sources */,
+				EB0EB444660CCAA8CFF31AE1F5320582 /* Requestor.swift in Sources */,
+				0C87D3240377C74F037736A15E6B4068 /* ResourceSummary.swift in Sources */,
+				E0E0D294F8B23B6367D45181987C08CE /* Route.swift in Sources */,
+				794BA17C5E58908520F4D58D7183A5DF /* Segment.swift in Sources */,
+				5856A64768480F16CAF9E4BBDC6A9B89 /* SegmentEffort.swift in Sources */,
+				C1243DF1E2A0953DA2789FCDC3D0D69E /* SegmentStats.swift in Sources */,
+				F33C80654438067DACBC453D6BC81097 /* Stats.swift in Sources */,
+				FBC877FB9438CC6160626D34C1D32CDB /* StatsDetail.swift in Sources */,
+				591C99975B832EF4D4CFE6AE520DA139 /* Strava.swift in Sources */,
+				AC90E6F0E92FC0735F8ED5DFC3396D3A /* StravaActivity.swift in Sources */,
+				15AD4ACB73C0014F0FBB128D908797CB /* StravaAthlete.swift in Sources */,
+				DE81AD208062777E01F968569D1BB299 /* StravaClub.swift in Sources */,
+				EFCBD20F82ABA01EBA711F31605DF031 /* StravaKit-dummy.m in Sources */,
+				8083811B4BB3366CBAAC7EFE76F35DCA /* StravaOAuth.swift in Sources */,
+				3DF130885EBCEEA91CFC17472509AF8A /* StravaRoute.swift in Sources */,
+				6819CCA3E44F064787B902721ED93E39 /* StravaSegment.swift in Sources */,
+				6BBF253CFE3AE1B6CEFA08F5FE90237F /* StravaUpload.swift in Sources */,
+				A160B91B8BF10CFBEB48B322316E5E72 /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E159992C6721C38BF560457CC31F9B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BC929F24869E12C65570C8AAD0897C /* AFError.swift in Sources */,
+				544BFC14B9E99681EB4F28C7CACC0ED9 /* Alamofire-dummy.m in Sources */,
+				72CECD359CDF92DC22C76356E1796DA3 /* Alamofire.swift in Sources */,
+				64C0124C5B9FCAC2E5ABD349388E94E3 /* DispatchQueue+Alamofire.swift in Sources */,
+				41D4D0571AEA89EB9CC1FBD59266A016 /* EventMonitor.swift in Sources */,
+				DFD4519939C31B8347F36B330131DA2C /* HTTPHeaders.swift in Sources */,
+				A2C797BF6BB45D5A96F41011DD9EE558 /* HTTPMethod.swift in Sources */,
+				CE7E590A8787BB68716EDF9C554C8390 /* MultipartFormData.swift in Sources */,
+				C82CECD0198622680F5F661DA79F86D3 /* MultipartUpload.swift in Sources */,
+				8A1861B8FD417601F283D4951374B1A6 /* NetworkReachabilityManager.swift in Sources */,
+				81264930F8823CAC6CE2CDC286A5D9E2 /* Notifications.swift in Sources */,
+				3A5388949570BD5EEB8FA52013A6617D /* OperationQueue+Alamofire.swift in Sources */,
+				977F611B308D748FE7B0088EBF35CEEB /* ParameterEncoder.swift in Sources */,
+				D809ACACC3BE69CEB6C361A48F03FB7F /* ParameterEncoding.swift in Sources */,
+				4693DD71CA0684C15C6EF0E3BFB30CD7 /* Protector.swift in Sources */,
+				49D4BB699FE1185CC6CFFD1AFF328758 /* Request.swift in Sources */,
+				BB466C8ECB7AEE1C06734411347BAC2D /* RequestAdapter.swift in Sources */,
+				DF4A675BDE26413D11F86D23D237E73F /* RequestRetrier.swift in Sources */,
+				C6916320A7C7D2F35600CBA483814A9D /* RequestTaskMap.swift in Sources */,
+				D89D42D372F47E00A41E8FED1A269C8E /* Response.swift in Sources */,
+				42E7221EA85E3BEA11AC494BB7598E68 /* ResponseSerialization.swift in Sources */,
+				A06B115D4C93CBA421BBC30BCEAD1149 /* Result.swift in Sources */,
+				864676B8B8241DDF11582613E82DFE2E /* ServerTrustEvaluation.swift in Sources */,
+				9D0DD8CE5084C22BA4222405E8F6777A /* Session.swift in Sources */,
+				6F6EDA2C4419F433B4FD524E918345E3 /* SessionStateProvider.swift in Sources */,
+				1F1E3999CD45E9BEF6B9DA7321CBE799 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				C08E04549EA09537FBA59CBF58FC3958 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				FCA55A112C125851BC7E5D0CCE9DE476 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96BCD064F417C6E2590D400E340B7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8712B43E39BDABDBEB5F5A7FC086D070 /* Pods-BikeRadar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97A61D9D4B18232A928007F14FFFF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 0EE987AC5AE644CD8D3C1D30BB25DC87 /* Alamofire */;
+			targetProxy = EBFE14993BE0D74CFE7FF162A48FB9B8 /* PBXContainerItemProxy */;
+		};
+		AEDD846C46ED53D0C69F282BA4C01AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StravaKit;
+			target = 0C8E5145B0E532727BC33BDE1D63DE9B /* StravaKit */;
+			targetProxy = 518BEBF484813F56D8EC9D149E28DD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0442157887C9E807FD7773EF1CE0E750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		08AAFA3D5726852B0C0B22E517952120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116C806E4ADA202543A02E3061278A31 /* Pods-BikeRadar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BikeRadar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikeRadar/Pods-BikeRadar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3546A08A2B8F884D1FEC4015C37A79DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E464909B7B4BE34809FC26A2CB634E7 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		447B744224C0577EBBAA7AAB9C2F4F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6CCAFB3073D6A6EF31E2606C467DAB /* StravaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StravaKit/StravaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StravaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StravaKit/StravaKit.modulemap";
+				PRODUCT_MODULE_NAME = StravaKit;
+				PRODUCT_NAME = StravaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8037E3AE11E34596CF8A0FCD8E90281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E464909B7B4BE34809FC26A2CB634E7 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84615D8C276E6B84B34DE267104AB25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7A56E71F2CCF2BF3C9C5EA00A4B657 /* Pods-BikeRadar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BikeRadar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BikeRadar/Pods-BikeRadar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87E77AA85DEF6B32BCCEB184303616B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6CCAFB3073D6A6EF31E2606C467DAB /* StravaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StravaKit/StravaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StravaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StravaKit/StravaKit.modulemap";
+				PRODUCT_MODULE_NAME = StravaKit;
+				PRODUCT_NAME = StravaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		897014E3842BAD0206651017768C6273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442157887C9E807FD7773EF1CE0E750 /* Debug */,
+				897014E3842BAD0206651017768C6273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA7773607CBA7F8B0611D879C6682AA /* Build configuration list for PBXNativeTarget "Pods-BikeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AAFA3D5726852B0C0B22E517952120 /* Debug */,
+				84615D8C276E6B84B34DE267104AB25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C7227FB60F61B85DE2D870E0675D19 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037E3AE11E34596CF8A0FCD8E90281F /* Debug */,
+				3546A08A2B8F884D1FEC4015C37A79DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6143ACEA3D8007C4555E9934DFA2D2A /* Build configuration list for PBXNativeTarget "StravaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E77AA85DEF6B32BCCEB184303616B7 /* Debug */,
+				447B744224C0577EBBAA7AAB9C2F4F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
